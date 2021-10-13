@@ -1,0 +1,102 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+section h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: calc(3.937rem + 1.5vw) !important;
+}
+
+.bg-image{
+    background: url(../images/img-article/a-propos.png) no-repeat center / cover;
+}
+
+section{
+    text-align: justify !important;
+}
+
+.navbar-nav li a {
+	font-weight: 700;
+    color: #404040;
+}
+
+.trait1:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px #FA9017 !important;  
+    transition: transform 250ms ease-in-out;
+}
+
+.trait:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px #FA9017 !important;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.trait:hover:after { transform: scaleX(1); }
+
+.bg-orange{
+    background: #FA9017 !important;
+}
+
+
+/*footer*/
+
+.footer{
+    background-color: #1C1D1E;
+    padding-top: 3rem;
+}
+
+.color-gray{
+    background-color: rgba(255, 255, 255, 0.918) !important;
+}
+
+.size{
+    font-size: .8rem !important;
+}
+
+.color-tranp{
+    color: rgba(255, 255, 255, 0.747) !important;
+    font-weight: normal;
+}
+
+.icon-size{
+    font-size: 1.6rem;
+}
+.social-icon{
+    border: 2px solid #fff;
+    background-color: #1C1D1E;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.margin{
+    margin-bottom: .5rem !important;
+}
+
+.footer .padding-bottom{
+    margin-bottom: 0 !important;
+}
+
+.d-flex li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-orange{
+    background-color: #FA9017 !important;
+    font-size: 1rem !important;
+}
+
+.color-orange{
+    color:#FA9017 !important;
+}
+
+.social-icon2{
+    border: 2px solid #FA9017 ;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 2px;
+}
